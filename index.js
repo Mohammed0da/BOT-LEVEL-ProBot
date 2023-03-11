@@ -1,5 +1,6 @@
 // رفع لفل حسابات بروبوت
 const Discord = require("discord.js-selfbot-v13"); 
+const { keep_alive } = require("./keep_alive");
 const client = new Discord.Client({
     intents: [Discord.Intents.FLAGS.GUILDS]
 });
